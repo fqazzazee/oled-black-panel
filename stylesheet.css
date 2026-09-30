@@ -1,0 +1,57 @@
+/* Force the top bar to pure black, overriding GNOME's desktop/overview
+   transparency and Blur My Shell's panel style classes. */
+#panel,
+#panel:overview,
+#panel.transparent-panel,
+#panel.dark-panel,
+#panel.light-panel,
+#panel.contrasted-panel {
+    background-color: #000000 !important;
+    background-gradient-direction: none !important;
+    box-shadow: none !important;
+}
+
+/* ---- Menus, quick settings, calendar ---- */
+.popup-menu-content,
+.candidate-popup-content,
+.modal-dialog {
+    background-color: #000000;
+    border: 1px solid #262626;
+}
+
+/* Cards inside menus: near-black so they still read as separate blocks */
+.quick-toggle-menu,
+.message,
+.events-button,
+.world-clocks-button,
+.weather-button {
+    background-color: #141414;
+}
+.message:second-in-stack { background-color: #101010; }
+.message:lower-in-stack  { background-color: #0c0c0c; }
+
+/* Flat buttons and calendar cells were solid gray; let the black show through */
+.calendar .calendar-day-heading,
+.calendar .calendar-day,
+.calendar .calendar-month-header .calendar-month-label,
+.calendar .calendar-month-header .pager-button,
+.icon-button.flat,
+.button.flat {
+    background-color: transparent;
+}
+
+/* ---- OSD (volume/brightness), Alt+Tab, workspace switcher ---- */
+.switcher-list,
+.workspace-switcher,
+.resize-popup,
+.osd-window {
+    background-color: #000000;
+    border: 1px solid #262626;
+}
+
+/* ---- Dock (Dash to Dock): colour comes from its settings (#000, opaque);
+   a faint border keeps it visible against a black wallpaper ---- */
+#dashtodockContainer #dash .dash-background {
+    border: 1px solid #262626 !important;
+    box-shadow: none !important;
+}

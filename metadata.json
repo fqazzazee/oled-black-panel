@@ -1,0 +1,9 @@
+{
+  "uuid": "oled-black-panel@fqazzazee.github.io",
+  "name": "OLED Black Panel",
+  "description": "Keeps the top bar pure black and lets you set a background color (fixed or matched to the active window) and image texture for parts of the desktop and the Files app.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.oled-black-panel",
+  "url": "https://github.com/fqazzazee/oled-black-panel",
+  "version-name": "1.0"
+}

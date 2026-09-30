@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.oled-black-panel"
+          path="/org/gnome/shell/extensions/oled-black-panel/">
+    <key name="textures" type="s">
+      <default>'{}'</default>
+      <summary>Background color and texture per theme area</summary>
+      <description>JSON object keyed by area id (see targets.js). Edit it from the preferences window.</description>
+    </key>
+  </schema>
+</schemalist>
