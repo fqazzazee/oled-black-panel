@@ -99,6 +99,10 @@ Code layout:
 - `imaging.js`: resizes, darkens and tiles texture images.
 - `stylesheet.css`: the fixed OLED black styling.
 
+## Support
+
+If it helped you get a true black desktop, you can [buy me a coffee ☕](https://buymeacoffee.com/fqazzazee).
+
 ## License
 
 GPL-2.0-or-later. See [LICENSE](LICENSE).
